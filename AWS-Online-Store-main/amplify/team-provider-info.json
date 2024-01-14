@@ -1,0 +1,36 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-onlinestore-prod-154303-authRole",
+      "UnauthRoleArn": "arn:aws:iam::126923877600:role/amplify-onlinestore-prod-154303-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::126923877600:role/amplify-onlinestore-prod-154303-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-onlinestore-prod-154303-deployment",
+      "UnauthRoleName": "amplify-onlinestore-prod-154303-unauthRole",
+      "StackName": "amplify-onlinestore-prod-154303",
+      "StackId": "arn:aws:cloudformation:ap-south-1:126923877600:stack/amplify-onlinestore-prod-154303/9fd326b0-5904-11ed-8b60-0a5919dd7e1c",
+      "AmplifyAppId": "d2klzz01o31zww"
+    },
+    "categories": {
+      "auth": {
+        "onlinestoref314c1ab": {}
+      },
+      "function": {
+        "processPayment": {
+          "deploymentBucketName": "amplify-onlinestore-prod-154303-deployment",
+          "s3Key": "amplify-builds/processPayment-77663666496547722b34-build.zip"
+        },
+        "createOrder": {
+          "deploymentBucketName": "amplify-onlinestore-prod-154303-deployment",
+          "s3Key": "amplify-builds/createOrder-4879317a556c486c4436-build.zip"
+        }
+      },
+      "storage": {
+        "s3c617b63d": {}
+      },
+      "api": {
+        "onlinestore": {}
+      }
+    }
+  }
+}

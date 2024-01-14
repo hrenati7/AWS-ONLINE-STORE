@@ -1,0 +1,40 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "authSelections": "identityPoolAndUserPool",
+    "requiredAttributes": [
+      "email"
+    ],
+    "resourceName": "onlinestoref314c1ab",
+    "useDefault": "default",
+    "userpoolClientReadAttributes": [
+      "email"
+    ],
+    "userpoolClientWriteAttributes": [
+      "email"
+    ],
+    "resourceNameTruncated": "onlinef314c1ab",
+    "sharedId": "f314c1ab",
+    "userPoolGroupList": [],
+    "userPoolName": "onlinestoref314c1ab_userpool_f314c1ab",
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientSetAttributes": false,
+    "userpoolClientGenerateSecret": true,
+    "userpoolClientLambdaRole": "onlinef314c1ab_userpoolclient_lambda_role",
+    "passwordPolicyCharacters": [],
+    "passwordPolicyMinLength": 8,
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "identityPoolName": "onlinestoref314c1ab_identitypool_f314c1ab",
+    "allowUnauthenticatedIdentities": true
+  }
+}  
